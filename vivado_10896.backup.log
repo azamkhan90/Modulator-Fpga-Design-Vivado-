@@ -1,0 +1,135 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Feb 18 14:27:09 2019
+# Process ID: 7096
+# Log file: C:/Users/azamk/Desktop/Vivzdo/modulator/vivado.log
+# Journal file: C:/Users/azamk/Desktop/Vivzdo/modulator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 722.426 ; gain = 149.648
+close [ open C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd w ]
+add_files C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+remove_files C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd
+file delete -force C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close [ open C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd w ]
+add_files C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+file mkdir C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd w ]
+add_files -fileset sim_1 C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'frequency_trigger_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj frequency_trigger_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity frequency_trigger
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd" into library xil_defaultlib
+ERROR: [VRFC 10-149] 'modulator_pkg' is not compiled in library xil_defaultlib [C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd:8]
+INFO: [VRFC 10-307] analyzing entity frequency_trigger_tb
+ERROR: [VRFC 10-1504] unit frequency_trigger_tb ignored due to previous errors [C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd:10]
+INFO: [VRFC 10-240] VHDL file C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'frequency_trigger_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj frequency_trigger_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity frequency_trigger
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity frequency_trigger_tb
+ERROR: [VRFC 10-91] per_c is not declared [C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd:36]
+ERROR: [VRFC 10-2123] 0 definitions of operator "/" match here [C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd:36]
+ERROR: [VRFC 10-1504] unit tb ignored due to previous errors [C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd:17]
+INFO: [VRFC 10-240] VHDL file C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'frequency_trigger_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj frequency_trigger_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity frequency_trigger
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity frequency_trigger_tb
+ERROR: [VRFC 10-91] per_c is not declared [C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd:36]
+ERROR: [VRFC 10-2123] 0 definitions of operator "/" match here [C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd:36]
+ERROR: [VRFC 10-1504] unit tb ignored due to previous errors [C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd:17]
+INFO: [VRFC 10-240] VHDL file C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd" into library xil_defaultlib [C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd:1]
+[Mon Feb 18 15:07:43 2019] Launched synth_1...
+Run output will be captured here: C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd" into library xil_defaultlib [C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd:1]
+[Mon Feb 18 15:26:32 2019] Launched synth_1...
+Run output will be captured here: C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.runs/synth_1/runme.log
+launch_runs impl_1
+[Mon Feb 18 15:27:42 2019] Launched impl_1...
+Run output will be captured here: C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.runs/impl_1/runme.log
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'frequency_trigger_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj frequency_trigger_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity frequency_trigger
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity frequency_trigger_tb
+ERROR: [VRFC 10-91] per_c is not declared [C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd:36]
+ERROR: [VRFC 10-2123] 0 definitions of operator "/" match here [C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd:36]
+ERROR: [VRFC 10-1504] unit tb ignored due to previous errors [C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd:17]
+INFO: [VRFC 10-240] VHDL file C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 759.488 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'frequency_trigger_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj frequency_trigger_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity frequency_trigger
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity frequency_trigger_tb
+ERROR: [VRFC 10-91] per_c is not declared [C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd:36]
+ERROR: [VRFC 10-2123] 0 definitions of operator "/" match here [C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd:36]
+ERROR: [VRFC 10-1504] unit tb ignored due to previous errors [C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd:17]
+INFO: [VRFC 10-240] VHDL file C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 18 15:32:11 2019...

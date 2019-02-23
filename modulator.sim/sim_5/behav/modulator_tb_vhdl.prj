@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../modulator.srcs/sources_1/new/modulator_pkg.vhd"
+vhdl xil_defaultlib  "../../../modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd"
+vhdl xil_defaultlib  "../../../modulator.srcs/sources_1/new/pwm.vhd"
+vhdl xil_defaultlib  "../../../modulator.srcs/sources_1/new/sine.vhd"
+vhdl xil_defaultlib  "../../../modulator.srcs/sources_1/new/counter.vhd"
+vhdl xil_defaultlib  "../../../modulator.srcs/sources_1/new/modulator.vhd"
+vhdl xil_defaultlib  "../../../modulator.srcs/sim_5/new/modulator_tb.vhd"
+
+# Do not sort compile order
+nosort

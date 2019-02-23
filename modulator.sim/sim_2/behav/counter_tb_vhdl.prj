@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../modulator.srcs/sources_1/new/modulator_pkg.vhd"
+vhdl xil_defaultlib  "../../../modulator.srcs/sources_1/new/counter.vhd"
+vhdl xil_defaultlib  "../../../modulator.srcs/sim_2/new/counter_tb.vhd"
+
+# Do not sort compile order
+nosort

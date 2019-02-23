@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/modulator_pkg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/frequency_trigger_rtl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity frequency_trigger
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_1/new/frequency_trigger_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity frequency_trigger_tb

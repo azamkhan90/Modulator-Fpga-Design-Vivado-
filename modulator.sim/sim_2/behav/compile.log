@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/modulator_pkg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sources_1/new/counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity counter
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/azamk/Desktop/Vivzdo/modulator/modulator.srcs/sim_2/new/counter_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity counter_tb

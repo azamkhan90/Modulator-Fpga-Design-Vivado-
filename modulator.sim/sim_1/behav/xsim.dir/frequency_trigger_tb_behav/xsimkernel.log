@@ -1,0 +1,4 @@
+Running: xsim.dir/frequency_trigger_tb_behav/xsimk.exe -simmode gui -wdb frequency_trigger_tb_behav.wdb -simrunnum 0 -socket 65352
+Design successfully loaded
+Design Loading Memory Usage: 20116 KB (Peak: 20116 KB)
+Design Loading CPU Usage: 280 ms

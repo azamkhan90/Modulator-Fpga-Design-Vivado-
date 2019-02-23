@@ -1,0 +1,26 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto e461357db4a84a9ca08978afaaf17763 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot modulator_tb_behav xil_defaultlib.modulator_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.math_real
+Compiling package xil_defaultlib.modulator_pkg
+Compiling package std.textio
+Compiling package ieee.std_logic_textio
+Compiling package unisim.vcomponents
+Compiling architecture rtl of entity xil_defaultlib.frequency_trigger [frequency_trigger_default]
+Compiling architecture rtl of entity xil_defaultlib.counter [\counter(255,8)\]
+Compiling architecture rtl of entity xil_defaultlib.sine [\sine(8,12)\]
+Compiling architecture rtl of entity xil_defaultlib.pwm [\pwm(12)\]
+Compiling architecture rtl of entity xil_defaultlib.modulator [\modulator((255,10.0,35.0,8,12))...]
+Compiling architecture tb of entity xil_defaultlib.modulator_tb
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot modulator_tb_behav
